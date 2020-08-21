@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Calculadora Sbsistemas</title>
+
+</head>
+<body>
+    <main class="app__wrapper">
+        <h1>CALCULADORA</h1>
+        <form>
+            <div class="form-group">
+                <label for="Valor1">VALOR 1:</label>
+                <input type="tel" id="valor1" > 
+            </div>
+            <div class="form-group">
+                <label for="valor2">VALOR 2:</label>
+                <input type="tel" id="valor2"> 
+            </div>
+
+            <div class="btn__wrapper">
+                <div>
+                    <button type="button" 
+                    id="btnAdd" 
+                    class="button">
+                        SOMAR
+                    </button>
+                </div>
+                <div>
+                    <button 
+                    type="button" 
+                    id="btnSub"
+                    class="button">
+                        SUBTRAIR
+                    </button>
+                </div>
+                <div>
+                    <button 
+                    type="button" 
+                    id="btnMult"
+                    class="button">
+                        MULTIPLICAR
+                    </button>
+                </div>
+                <div>
+                    <button 
+                    type="button" 
+                    id="btnDivi"
+                    class="button">
+                        DIVIDIR
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <div class="resultado" id="resultado">Resultado: </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
